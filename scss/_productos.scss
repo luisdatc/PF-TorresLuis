@@ -1,0 +1,25 @@
+.products-tittle {
+  text-align: center;
+  padding: 2rem 0rem;
+  h1,
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $color1;
+  }
+}
+
+.brunch-img {
+  clip-path: $brunch-clippy;
+}
+
+.products-description {
+  font-size: 2.5rem;
+  text-align: justify;
+}
+
+.products-text {
+  font-size: 2.5rem;
+  text-align: justify;
+  padding: 2rem;
+}
