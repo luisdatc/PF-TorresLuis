@@ -10848,6 +10848,7 @@ html {
 }
 .navbar .navbar-brand {
   font-weight: 700;
+  width: 50%;
 }
 
 .nav-item .nav-link {
