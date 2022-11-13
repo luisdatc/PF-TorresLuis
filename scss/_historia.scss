@@ -31,7 +31,6 @@
   clip-path: $clippy;
 }
 
-<<<<<<< HEAD
 .dark h1,
 .dark .description-history {
   color: $color5;
@@ -42,14 +41,3 @@
     font-size: 2.5rem;
   }
 }
-=======
-@media (max-width: 767px) {
-
-  .dark h1{
-    color: $color5;
-  }
-  .navbar-toggler{
-    font-size: 2.5rem;
-  }
-}
->>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd

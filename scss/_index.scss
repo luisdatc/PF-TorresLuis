@@ -63,21 +63,12 @@
   margin: auto 0;
 }
 
-<<<<<<< HEAD
 .dark .tittle {
   color: $color5;
 }
 
 @media (max-width: 767px) {
   .navbar-toggler {
-=======
-@media (max-width: 767px) {
-
-  .dark .tittle{
-    color: $color5;
-  }
-  .navbar-toggler{
->>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
     font-size: 2.5rem;
   }
 }
