@@ -39,16 +39,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Sucursales</title>
   </head>
-  <body>
+  <body class="">
     <header>
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
             <img
-              src="../assets/cedric-grolet-logo.png"
+              src="../assets/cedric-logo.png"
               alt="Cedric Grolet Logo"
-              width="15%"
+              width="20%"
               height="20%"
               class="d-inline-block align-text-center"
             />C&eacute;dric Grolet</a
@@ -60,7 +60,7 @@
             data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars"></i>
           </button>
           <div
             class="offcanvas offcanvas-end"
@@ -85,14 +85,15 @@
                   <a class="nav-link" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="historia.html"
-                    >Historia</a
-                  >
+                  <a class="nav-link" href="historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="sucursales.html" aria-current="page">Sucursales</a>
+                  <a
+                    class="nav-link active"
+                    href="sucursales.html"
+                    aria-current="page"
+                    >Sucursales</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="productos.html">Productos</a>
@@ -100,19 +101,18 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
-                <!-- <li class="nav-item">
-            <button class="switchDark active nav-link" id="switch">
-              <span><i class="fa-solid fa-sun"></i></span>
-              <span><i class="fa-solid fa-moon"></i></span>
-            </button>
-          </li> -->
+                <li class="nav-item boton">
+                  <button class="switchDark" id="switch">
+                    <span><i class="fa-solid fa-sun"></i></span>
+                    <span><i class="fa-solid fa-moon"></i></span>
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
     </header>
-
     <main>
       <section class="sucursal-main-location">
         <div class="container-fluid text-center">
@@ -151,7 +151,6 @@
               </div>
             </div>
           </div>
-
           <div class="row">
             <div
               class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 allies-location mt-5 mb-5"
@@ -289,7 +288,6 @@
         </div>
       </section>
     </main>
-
     <!-- FOOTER -->
     <footer>
       <div class="container-fluid">
@@ -341,7 +339,8 @@
         </div>
       </div>
     </footer>
-
+    <!-- JS -->
+    <script src="../js/main.js"></script>
     <!-- BOOTSTRAP JS -->
     <script src="../js/bootstrap.js"></script>
     <!-- SCRIP AOS ANIMATION -->

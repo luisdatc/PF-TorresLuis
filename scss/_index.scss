@@ -63,4 +63,12 @@
   margin: auto 0;
 }
 
-/*eje de turbina y autoembrague 3205*/
+@media (max-width: 767px) {
+
+  .dark .tittle{
+    color: $color5;
+  }
+  .navbar-toggler{
+    font-size: 2.5rem;
+  }
+}

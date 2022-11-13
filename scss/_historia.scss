@@ -30,3 +30,13 @@
 .history-img-3 {
   clip-path: $clippy;
 }
+
+@media (max-width: 767px) {
+
+  .dark h1{
+    color: $color5;
+  }
+  .navbar-toggler{
+    font-size: 2.5rem;
+  }
+}

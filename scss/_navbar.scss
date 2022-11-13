@@ -24,4 +24,10 @@
       font-weight: 700;
     }
   }
+  .fa-bars {
+    color: $color5;
+  }
+  .dark .offcanvas {
+    background-color: rgb(11, 22, 44);
+  }
 }
