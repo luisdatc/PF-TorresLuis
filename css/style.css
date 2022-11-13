@@ -10932,11 +10932,18 @@ html {
   margin: auto 0;
 }
 
+<<<<<<< HEAD
 .dark .tittle {
   color: #056830;
 }
 
 @media (max-width: 767px) {
+=======
+@media (max-width: 767px) {
+  .dark .tittle {
+    color: #056830;
+  }
+>>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
   .navbar-toggler {
     font-size: 2.5rem;
   }
@@ -11016,6 +11023,7 @@ footer .footer-link:hover {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
+<<<<<<< HEAD
 .dark h1, .dark .h1,
 .dark .description-history,
 .dark .history-list {
@@ -11023,6 +11031,12 @@ footer .footer-link:hover {
 }
 
 @media (max-width: 767px) {
+=======
+@media (max-width: 767px) {
+  .dark h1, .dark .h1 {
+    color: #056830;
+  }
+>>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
   .navbar-toggler {
     font-size: 2.5rem;
   }
@@ -11089,6 +11103,14 @@ footer .footer-link:hover {
   .navbar-toggler {
     font-size: 2.5rem;
   }
+<<<<<<< HEAD
+=======
+  .dark .location,
+.dark .description,
+.dark .allies-location-text {
+    color: #056830;
+  }
+>>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
 }
 .contact-section {
   padding: 2rem 2rem;
@@ -11141,6 +11163,12 @@ footer .footer-link:hover {
   .navbar-toggler {
     font-size: 2.5rem;
   }
+<<<<<<< HEAD
+=======
+  .form-label {
+    color: #056830;
+  }
+>>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
 }
 .products-tittle {
   text-align: center;
@@ -11164,15 +11192,25 @@ footer .footer-link:hover {
   padding: 2rem;
 }
 
+<<<<<<< HEAD
 .dark h1, .dark .h1,
 .dark .products-text {
   color: #056830;
 }
 
+=======
+>>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
 @media (max-width: 767px) {
   .navbar-toggler {
     font-size: 2.5rem;
   }
+<<<<<<< HEAD
+=======
+  .dark h1, .dark .h1,
+.dark .products-text {
+    color: #056830;
+  }
+>>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
 }
 .switchDark {
   background-color: #183b59;
