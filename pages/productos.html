@@ -39,16 +39,16 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Productos</title>
   </head>
-  <body>
+  <body class="">
     <header>
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
             <img
-              src="../assets/cedric-grolet-logo.png"
+              src="../assets/cedric-logo.png"
               alt="Cedric Grolet Logo"
-              width="15%"
+              width="20%"
               height="20%"
               class="d-inline-block align-text-center"
             />C&eacute;dric Grolet</a
@@ -60,7 +60,7 @@
             data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars"></i>
           </button>
           <div
             class="offcanvas offcanvas-end"
@@ -88,39 +88,38 @@
                   <a class="nav-link" href="historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="sucursales.html"
-                    >Sucursales</a
-                  >
+                  <a class="nav-link" href="sucursales.html">Sucursales</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="productos.html" aria-current="page">Productos</a>
+                  <a
+                    class="nav-link active"
+                    href="productos.html"
+                    aria-current="page"
+                    >Productos</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
-                <!-- <li class="nav-item">
-            <button class="switchDark active nav-link" id="switch">
-              <span><i class="fa-solid fa-sun"></i></span>
-              <span><i class="fa-solid fa-moon"></i></span>
-            </button>
-          </li> -->
+                <li class="nav-item boton">
+                  <button class="switchDark" id="switch">
+                    <span><i class="fa-solid fa-sun"></i></span>
+                    <span><i class="fa-solid fa-moon"></i></span>
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
     </header>
-
     <main>
       <section>
         <div class="container">
           <div class="row products-tittle">
             <h1>¡Nuestros Productos!</h1>
           </div>
-
-          <div class="products-description">
+          <div class="products-text">
             <p>
               En esta seccion puedes tener un vistazo rapido y pequeño de
               algunos de nuestros productos, para que sepas lo que te pierdes
@@ -219,7 +218,6 @@
             </div>
           </div>
           <!-- CUARTO ROW CON IMAGEN Y TEXTO -->
-
           <div class="row align-items-center">
             <div class="col-xs col-sm col-md col-lg-6 col-xl-6 products-text">
               <p>
@@ -351,7 +349,8 @@
         </div>
       </div>
     </footer>
-
+    <!-- JS -->
+    <script src="../js/main.js"></script>
     <!-- BOOTSTRAP JS -->
     <script src="../js/bootstrap.js"></script>
   </body>
