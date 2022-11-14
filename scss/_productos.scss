@@ -1,6 +1,6 @@
 .products-tittle {
   text-align: center;
-  padding: 2rem 0rem;
+  padding: 1rem 0rem;
   h1,
   h2 {
     font-size: 4rem;
@@ -13,11 +13,6 @@
   clip-path: $brunch-clippy;
 }
 
-.products-description {
-  font-size: 2.5rem;
-  text-align: justify;
-}
-
 .products-text {
   font-size: 2.5rem;
   text-align: justify;
@@ -25,7 +20,7 @@
 }
 
 .dark h1,
-.dark .products-text {
+.dark .products-text  {
   color: $color5;
 }
 
@@ -33,4 +28,5 @@
   .navbar-toggler {
     font-size: 2.5rem;
   }
+
 }
