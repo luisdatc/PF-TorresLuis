@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/*$input-bg:  $color5;*/
+/* $input-bg:  $color5;
+ */
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -3747,14 +3748,14 @@ textarea.form-control-lg {
   --bs-navbar-brand-padding-y: -0.625rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 2.5rem;
-  --bs-navbar-brand-color: #056830;
+  --bs-navbar-brand-color: green;
   --bs-navbar-brand-hover-color: #183b59;
   --bs-navbar-nav-link-padding-x: 1.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.25rem;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  --bs-navbar-toggler-border-color: #056830;
+  --bs-navbar-toggler-border-color: green;
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
@@ -10866,12 +10867,6 @@ html {
     font-size: 2rem;
     font-weight: 700;
   }
-  .fa-bars {
-    color: #056830;
-  }
-  .dark .offcanvas {
-    background-color: rgb(11, 22, 44);
-  }
 }
 .slice {
   padding: 1.5rem 5rem;
@@ -10933,6 +10928,7 @@ html {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dark .tittle {
   color: #056830;
 }
@@ -10948,6 +10944,9 @@ html {
     font-size: 2.5rem;
   }
 }
+=======
+/*eje de turbina y autoembrague 3205*/
+>>>>>>> parent of 57f5df9 (arreglo estilos de modo oscuro)
 footer {
   background-color: #056830;
   padding-top: 0.5rem;
@@ -11024,6 +11023,7 @@ footer .footer-link:hover {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dark h1, .dark .h1,
 .dark .description-history,
 .dark .history-list {
@@ -11041,6 +11041,8 @@ footer .footer-link:hover {
     font-size: 2.5rem;
   }
 }
+=======
+>>>>>>> parent of 57f5df9 (arreglo estilos de modo oscuro)
 .sucursal-main-location {
   padding: 2rem 0;
 }
@@ -11084,21 +11086,12 @@ footer .footer-link:hover {
   text-align: center;
 }
 
-.dark .location,
-.dark .description,
-.dark .allies-location-text {
-  color: #056830;
-}
-
-.dark .fa-location-dot {
-  color: blue;
-}
-
 @media (max-width: 575px) {
   .location-order div:first-child {
     order: 3;
   }
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .navbar-toggler {
     font-size: 2.5rem;
@@ -11112,6 +11105,8 @@ footer .footer-link:hover {
   }
 >>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
 }
+=======
+>>>>>>> parent of 57f5df9 (arreglo estilos de modo oscuro)
 .contact-section {
   padding: 2rem 2rem;
 }
@@ -11148,18 +11143,11 @@ footer .footer-link:hover {
   background-color: #056830;
 }
 
-.dark .form-tittle {
-  color: #056830;
-}
-
-.dark .form-label {
-  color: #056830;
-}
-
 @media (max-width: 767px) {
   .contact-img {
     display: none;
   }
+<<<<<<< HEAD
   .navbar-toggler {
     font-size: 2.5rem;
   }
@@ -11169,10 +11157,12 @@ footer .footer-link:hover {
     color: #056830;
   }
 >>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
+=======
+>>>>>>> parent of 57f5df9 (arreglo estilos de modo oscuro)
 }
 .products-tittle {
   text-align: center;
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
 }
 .products-tittle h1, .products-tittle .h1,
 .products-tittle h2,
@@ -11186,12 +11176,18 @@ footer .footer-link:hover {
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
 
+.products-description {
+  font-size: 2.5rem;
+  text-align: justify;
+}
+
 .products-text {
   font-size: 2.5rem;
   text-align: justify;
   padding: 2rem;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .dark h1, .dark .h1,
 .dark .products-text {
@@ -11212,6 +11208,8 @@ footer .footer-link:hover {
   }
 >>>>>>> 50d68f6c10630a18ca03901080a8290f9cf014cd
 }
+=======
+>>>>>>> parent of 57f5df9 (arreglo estilos de modo oscuro)
 .switchDark {
   background-color: #183b59;
   display: flex;
@@ -11259,7 +11257,7 @@ footer .footer-link:hover {
 }
 
 body.dark {
-  background: rgb(11, 22, 44);
+  background: rgb(0, 0, 0);
   color: #fff;
 }
 

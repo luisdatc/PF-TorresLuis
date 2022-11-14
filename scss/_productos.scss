@@ -1,6 +1,6 @@
 .products-tittle {
   text-align: center;
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
   h1,
   h2 {
     font-size: 4rem;
@@ -11,6 +11,11 @@
 
 .brunch-img {
   clip-path: $brunch-clippy;
+}
+
+.products-description {
+  font-size: 2.5rem;
+  text-align: justify;
 }
 
 .products-text {
