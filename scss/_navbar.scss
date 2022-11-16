@@ -30,4 +30,12 @@
   .dark .offcanvas {
     background-color: rgb(11, 22, 44);
   }
+
+  .nav-item {
+    .nav-link {
+      &:hover {
+        border-bottom: none;
+      }
+    }
+  }
 }

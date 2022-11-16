@@ -10872,6 +10872,9 @@ html {
   .dark .offcanvas {
     background-color: rgb(11, 22, 44);
   }
+  .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
 }
 .slice {
   padding: 1.5rem 5rem;
@@ -10976,6 +10979,7 @@ footer .footer-link:hover {
 .footer-location {
   color: #f2f2f2;
   font-size: 2rem;
+  background-color: black;
 }
 
 .footer-copyright {
@@ -10995,7 +10999,7 @@ footer .footer-link:hover {
 .description-history, .history-list {
   text-align: justify;
   font-size: 2.5rem;
-  padding: 1.5rem 0;
+  padding: 1.5rem 2.5rem;
 }
 
 .history-img {
