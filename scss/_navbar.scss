@@ -17,6 +17,9 @@
 }
 
 @media (max-width: 768px) {
+  .navbar-toggler {
+    font-size: 2.5rem;
+  }
   .offcanvas {
     color: green;
     &-title {
@@ -37,5 +40,25 @@
         border-bottom: none;
       }
     }
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-toggler {
+    font-size: 2.5rem;
+  }
+
+  .offcanvas {
+    color: green;
+    &-title {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  }
+  .fa-bars {
+    color: $color5;
+  }
+  .dark .offcanvas {
+    background-color: rgb(11, 22, 44);
   }
 }
