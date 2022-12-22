@@ -10965,7 +10965,7 @@ footer {
   padding-top: 0.5rem;
 }
 footer .footer-link {
-  padding: 0 0.5rem;
+  padding: 0 2rem;
   font-size: 2rem;
   color: #f2f2f2;
   text-decoration: none;
@@ -10978,6 +10978,10 @@ footer .footer-link:hover {
 
 .footer-flex {
   padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer-flex-iconos {
@@ -10986,6 +10990,7 @@ footer .footer-link:hover {
 
 .iconos {
   align-self: center;
+  padding: 0.5rem 0;
   cursor: pointer;
 }
 .iconos .fa-brands {
@@ -10998,6 +11003,12 @@ footer .footer-link:hover {
   color: #183b59;
   font-weight: 700;
   border-bottom: 1px solid #183b59;
+}
+.iconos-footer-icon-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
 }
 
 .footer-location {
